@@ -5,3 +5,6 @@ scikit-learn
 tensorboard
 matplotlib
 streamlit
+dill
+mlflow
+keras_tuner

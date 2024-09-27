@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/gayan/Documents/DataScience/08_END_to_END_ML_PROJECTS/03_Churn_DL/mlruns/0/0b3ba360935149e38640bb83b5774192/artifacts
+end_time: 1727479554750
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0b3ba360935149e38640bb83b5774192
+run_name: upset-gull-429
+run_uuid: 0b3ba360935149e38640bb83b5774192
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727479546074
+status: 3
+tags: []
+user_id: gayan

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/gayan/Documents/DataScience/08_END_to_END_ML_PROJECTS/03_Churn_DL/mlruns/0/96b4adb180304d1695028a94be6243e9/artifacts
+end_time: 1727478748642
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96b4adb180304d1695028a94be6243e9
+run_name: charming-bat-125
+run_uuid: 96b4adb180304d1695028a94be6243e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727478740075
+status: 3
+tags: []
+user_id: gayan
