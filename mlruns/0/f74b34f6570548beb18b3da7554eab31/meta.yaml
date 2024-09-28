@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/gayan/Documents/DataScience/08_END_to_END_ML_PROJECTS/03_Churn_DL/mlruns/0/f74b34f6570548beb18b3da7554eab31/artifacts
+end_time: 1727544824183
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f74b34f6570548beb18b3da7554eab31
+run_name: rebellious-squid-227
+run_uuid: f74b34f6570548beb18b3da7554eab31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727544823543
+status: 4
+tags: []
+user_id: gayan

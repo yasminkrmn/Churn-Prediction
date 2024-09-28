@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/gayan/Documents/DataScience/08_END_to_END_ML_PROJECTS/03_Churn_DL/mlruns/0/a54607c9d574424c948e20c1d16711b1/artifacts
+end_time: 1727544982155
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a54607c9d574424c948e20c1d16711b1
+run_name: nimble-mare-393
+run_uuid: a54607c9d574424c948e20c1d16711b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727544971830
+status: 3
+tags: []
+user_id: gayan
