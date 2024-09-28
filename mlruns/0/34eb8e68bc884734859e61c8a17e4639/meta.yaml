@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/gayan/Documents/DataScience/08_END_to_END_ML_PROJECTS/03_Churn_DL/mlruns/0/34eb8e68bc884734859e61c8a17e4639/artifacts
+end_time: 1727529049593
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34eb8e68bc884734859e61c8a17e4639
+run_name: vaunted-colt-890
+run_uuid: 34eb8e68bc884734859e61c8a17e4639
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727528884086
+status: 3
+tags: []
+user_id: gayan

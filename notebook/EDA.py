@@ -298,9 +298,3 @@ def Chi2_test(dataframe, col, target):
 for col in categorical_columns:
     Chi2_test(data, col, 'Exited')
 
-# Geography: statistically significant effect on Exited: pval - 0.000
-# Gender: statistically significant effect on Exited: pval - 0.000
-# HasCrCard: not statistically significant effect on Exited: pval - 0.492
-# IsActiveMember: statistically significant effect on Exited: pval - 0.000
-
-

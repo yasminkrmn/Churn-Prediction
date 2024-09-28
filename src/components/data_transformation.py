@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder, RobustScaler
+from sklearn.preprocessing import OneHotEncoder, RobustScaler
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object
@@ -72,12 +72,16 @@ class DataTransformation:
                 f'X_train shape: {X_train.shape}, y_train shape: {y_train.shape}'
                 f' X_test shape: {X_test.shape}, y_test shape: {y_test.shape}'
             )
-            X_train_arr = preprocessing_obj.fit_transform(X_train)
-            X_test_arr = preprocessing_obj.transform(X_test)
+            X_train_arr = preprocessing_obj.fit_transform(X_train) #Relook
+            X_test_arr = preprocessing_obj.transform(X_test) #Relook
 
             train_arr = np.c_[X_train_arr, y_train.to_numpy()]
             test_arr = np.c_[X_test_arr, y_test.to_numpy()]
 
+            logging.info(
+                f"Training set shape:{train_arr.shape}"
+                f"Test set shape: {test_arr.shape}"
+            )
             save_object(
                 file_path=self.data_transformation_config.preprocessor_obj_file_path,
                 obj=preprocessing_obj

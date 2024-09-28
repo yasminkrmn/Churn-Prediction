@@ -7,8 +7,11 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
-from src.components.data_transformation import DataTransformation, DataTransformationConfig
-from src.components.train_pipeline import ModelTrainer, ModelTrainerConfig
+from src.components.data_transformation import DataTransformation
+from src.pipeline.train_pipeline import ModelTrainer
+
+import warnings
+warnings.filterwarnings("ignore")
 
 @dataclass
 class DataIngestionConfig:
@@ -43,11 +46,12 @@ class DataIngestion:
             train_set, test_set = train_test_split(data, test_size=0.2,
                                                    random_state=42, stratify= data['Exited'])
 
-            train_set.to_csv(self.ingestion_config.train_data_path)
-            test_set.to_csv(self.ingestion_config.test_data_path)
+            train_set.to_csv(self.ingestion_config.train_data_path, index=False)
+            test_set.to_csv(self.ingestion_config.test_data_path, index=False)
 
             logging.info(f"Train and test data ingestion completed")
-
+            logging.info(f"Training data shape: {train_set.columns}")
+            logging.info(f"Test data shape: {test_set.columns}")
             return(
             self.ingestion_config.train_data_path,
             self.ingestion_config.test_data_path)

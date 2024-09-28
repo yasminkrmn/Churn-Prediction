@@ -8,3 +8,4 @@ streamlit
 dill
 mlflow
 keras_tuner
+streamlit
